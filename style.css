@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.button {
+    background-color: orange;
+    border: 1px solid orange;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+h1 {
+    font-size: 5rem;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
